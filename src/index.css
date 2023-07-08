@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
   font-family: "Bariol";
   src: url("/src/assets/font/bariol_thin-webfont.ttf");
