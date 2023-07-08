@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import './App.css';
+import PasSlider from "./Components/PasSlider";
 
 function App() {
   return (
-   <>
-<h1 className='text-xl bg-slate-900'>hello</h1>   </>
+    <>
+      <PasSlider />
+    </>
   );
 }
 
