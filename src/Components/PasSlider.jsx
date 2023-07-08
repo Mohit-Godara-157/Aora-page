@@ -16,7 +16,7 @@ const PasSlider = () => {
             <Slider {...settings} className=" rounded-lg w-full">
                 {SliderData.map((func) => {
                     return (
-                        <div className='relative  md:mx -[40px] slider_bg_image bg-cover bg-no-repeat rounded-lg shadow-lg object-cover pt-4 px-[12px] lg:pl-[70px] lg:pr-[125px] group'>
+                        <div className='relative slider_bg_image bg-cover bg-no-repeat rounded-lg shadow-lg object-cover pt-4 px-[12px] lg:pl-[70px] lg:pr-[125px] group'>
                             <div className='grid grid-cols-2 pt-[13px]'>
                                 <div className='md:pt-24'>
                                     <h4 className='ff_Bariol text-[24px] md:text-5xl font-bold'>{func.heading}</h4>
