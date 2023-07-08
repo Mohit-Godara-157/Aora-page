@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
   font-family: "Bariol";
   src: url("/src/assets/font/bariol_thin-webfont.ttf");
@@ -27,12 +28,11 @@
 .ff_Bariol {
   font-family: "Bariol";
 }
-.box_hoverOrange:hover {
-  background: #ffb219;
-}
+ 
 .cardBox {
   border-radius: 8px;
   border: 2px solid rgba(0, 0, 0, 0.1);
   background: var(--white, #fff);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
+
