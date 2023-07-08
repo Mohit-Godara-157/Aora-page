@@ -5,7 +5,7 @@
 
 body {
   overflow-x: hidden !important;
-  background-color: #FAFAFA !important;
+  background: #fafafa !important;
 }
 
 .slick-initialized .slick-slide {
