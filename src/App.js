@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import HeroSection from "./Components/HeroSection";
 
 function App() {
   return (
-   <>
-<h1 className='text-xl bg-slate-900'>hello</h1>   </>
+    <>
+      <HeroSection />
+    </>
   );
 }
 
