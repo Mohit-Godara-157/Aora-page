@@ -5,7 +5,7 @@ import { Col, Row } from "react-bootstrap";
 const Maps = () => {
   return (
     <>
-      <section className=" pt-14 lg:pt-16 bg-[#FAFAFA]">
+      <section className=" pt-14 lg:pt-16 bg-[#FAFAFA] overflow-hidden">
         <div className="container xl:max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-2 xl:px-0">
           <div className="lg:block hidden">
             <h2 className="text-[#2A2A2A]  font-bold text-center ff_Bariol text-[40px]">
