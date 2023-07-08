@@ -5,6 +5,7 @@
 
 body {
   overflow-x: hidden !important;
+  background: #fafafa !important;
 }
 
 .slick-initialized .slick-slide {

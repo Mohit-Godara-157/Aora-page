@@ -12,7 +12,7 @@ const PasSlider = () => {
     slidesToScroll: 1,
   };
   return (
-    <section className="mt-12 md:mt-[93px] mb-[60px] md:mb-32 px-[20px]">
+    <section className="mt-12 bg-[#FAFAFA] md:mt-[93px] mb-[60px] md:mb-32 px-[20px]">
       <Slider {...settings} className=" rounded-lg w-full">
         {SliderData.map((func) => {
           return (
