@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "Bariol";
+  src: url("/src/assets/font/bariol_thin-webfont.ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bariol";
+  src: url("/src/assets/font/bariol_regular-webfont.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bariol";
+  src: url("/src/assets/font/bariol_bold-webfont.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+.ff_Bariol {
+  font-family: "Bariol";
+}
