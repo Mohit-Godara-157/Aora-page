@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Maps from "./Components/Maps";
 
 function App() {
   return (
-   <>
-<h1 className='text-xl bg-slate-900'>hello</h1>   </>
+    <>
+      <Maps />
+    </>
   );
 }
 
